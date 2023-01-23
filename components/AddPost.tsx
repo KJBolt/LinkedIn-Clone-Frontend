@@ -1,4 +1,5 @@
 import Image from "next/image";
+import '../public/'
 
 
 function AddPost() {
@@ -23,7 +24,7 @@ function AddPost() {
         <div className="flex flex-row justify-around py-2">
             <div className="flex flex-col sm:flex-row items-center">
                 <Image 
-                    src={require('../public/image1.jpg')}
+                    src={require('../public/image1.JPG')}
                     alt='Profile Pic'
                     width={40}
                     height={40}
@@ -33,7 +34,7 @@ function AddPost() {
             </div>
             <div className="flex flex-col sm:flex-row items-center">
                 <Image 
-                    src={require('../public/video1.jpg')}
+                    src={require('../public/video1.JPG')}
                     alt='Profile Pic'
                     width={40}
                     height={40}
@@ -43,7 +44,7 @@ function AddPost() {
             </div>
             <div className="flex flex-col sm:flex-row items-center">
                 <Image 
-                    src={require('../public/event1.jpg')}
+                    src={require('../public/event1.JPG')}
                     alt='Profile Pic'
                     width={40}
                     height={40}
@@ -53,7 +54,7 @@ function AddPost() {
             </div>
             <div className="flex flex-col sm:flex-row items-center">
                 <Image 
-                    src={require('../public/write1.jpg')}
+                    src={require('../public/write1.JPG')}
                     alt='Profile Pic'
                     width={40}
                     height={40}
