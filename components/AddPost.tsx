@@ -24,7 +24,7 @@ function AddPost() {
         <div className="flex flex-row justify-around py-2">
             <div className="flex flex-col sm:flex-row items-center">
                 <Image 
-                    src={require('../public/image1.JPG')}
+                    src={require('../public/image1.jpg')}
                     alt='Profile Pic'
                     width={40}
                     height={40}
@@ -34,7 +34,7 @@ function AddPost() {
             </div>
             <div className="flex flex-col sm:flex-row items-center">
                 <Image 
-                    src={require('../public/video1.JPG')}
+                    src={require('../public/video1.jpg')}
                     alt='Profile Pic'
                     width={40}
                     height={40}
@@ -44,7 +44,7 @@ function AddPost() {
             </div>
             <div className="flex flex-col sm:flex-row items-center">
                 <Image 
-                    src={require('../public/event1.JPG')}
+                    src={require('../public/event1.jpg')}
                     alt='Profile Pic'
                     width={40}
                     height={40}
@@ -54,7 +54,7 @@ function AddPost() {
             </div>
             <div className="flex flex-col sm:flex-row items-center">
                 <Image 
-                    src={require('../public/write1.JPG')}
+                    src={require('../public/write1.jpg')}
                     alt='Profile Pic'
                     width={40}
                     height={40}

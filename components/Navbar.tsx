@@ -24,7 +24,7 @@ function Navbar() {
                 <Link href='/'>
                     <Image 
                         alt="Job Hunt"
-                        src={require('../public/logo.JPG')}
+                        src={require('../public/logo.jpg')}
                         height={40}
                         width={40}
                         className='mr-1 object-cover'
